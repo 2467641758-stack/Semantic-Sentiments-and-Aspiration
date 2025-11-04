@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="An AI agent with one question box that helps older adults and people with cognitive differences complete tasks with a sentence.">
+  <title>One-Question Assistant — Concept</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  
+<a href="#main" class="visually-hidden">Skip to content</a>
+<header class="site-header">
+  <div class="container" style="display:flex; align-items:center; gap:1rem;">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <h1>One-Question Assistant</h1>
+    </div>
+    <nav class="primary" aria-label="Primary">
+      <a href="index.html" aria-current="page">Concept</a>
+      <a href="use_cases.html" >Use&nbsp;Cases</a>
+    </nav>
+  </div>
+</header>
+
+  <main id="main" class="container">
+
+    <section class="panel split" aria-labelledby="p">
+      <div>
+        <h2 id="p">Problem</h2>
+        <span class="micro s1">Bigger text isn’t the full answer</span>
+<p>Many apps now ship a “Care Mode” for older adults, but most implementations stop at enlarging type. Bigger text helps recognition; it does not explain <em>where</em> to go or <em>what</em> to press. For older adults with presbyopia—and for people with cognitive differences—the harder part is remembering brand names, recalling which app contains a function, and keeping multi-step paths in working memory while tiny tap targets, inconsistent labels, and technical status messages add uncertainty.</p>
+
+<span class="micro s2">One question box, powered by AI</span>
+<p>I propose an assistant that matches how people naturally act: say what you want once, and let the system guide the rest. The interface supports voice, typing, or handwriting. Instead of finding the Settings app, searching the web for a path, and clicking through nested menus, the assistant navigates on the user’s behalf and applies the change after a single confirmation.</p>
+<p>Examples: “I want to change my wallpaper” shows a few labeled options and sets the chosen one; “How much storage or memory is used?” returns a plain summary with next-step tips; common services such as “Find nearby restaurants” or “Register at the hospital for next week” are aggregated behind the scenes so booking and queuing happen in one place.</p>
+
+<span class="micro s2">Lower learning cost by mirroring everyday conversation</span>
+<p>People already use conversation to solve problems in daily life. Keeping that pattern lowers the learning cost for seniors and users with cognitive differences: no memorizing brand-specific rules or app taxonomies, just a sentence that states the goal and a guided next step.</p>
+
+<span class="micro s2">Reducing inequality in access</span>
+<p>By offering a system that is easier to understand and operate, this design narrows gaps created by today’s technology. With a single utterance, older adults can discover cheaper coupons, book or queue at restaurants in advance, or complete hospital registration online—access that otherwise depends on juggling multiple apps. That is why this proposal matters: it uses AI to support everyday independence while respecting human preferences.</p>
+
+      </div>
+      <div class="problem-right">
+        <!-- 右上图 -->
+        <figure class="figure fig-top">
+          <img src="assets/images/problem-collage.png" alt="Collage: nested settings screens, tiny tap targets, multiple app flows.">
+          <figcaption class="visually-hidden">problem-collage</figcaption>
+        </figure>
+        <!-- 右下图 -->
+        <figure class="figure fig-bottom">
+          <img src="assets/images/problem-access.png" alt="Elder using the assistant to find coupons, book restaurants, and register at hospitals in one place.">
+          <figcaption class="visually-hidden">problem-access</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="panel split flip" aria-labelledby="s">
+      <figure class="figure">
+        <img src="assets/images/one-input-ui.png" alt="Single large input with voice, typing, handwriting options.">
+        <figcaption>/assets/images/one-input-ui.png</figcaption>
+      </figure>
+      <div>
+        <h2 id="s">Solution Overview</h2>
+        <span class="micro s1">One sentence to start</span>
+        <p>The concept proposes a single question box handled by an AI agent. The user begins with one sentence in natural language and can choose voice, typing, or handwriting.</p>
+        <span class="micro s2">Guided summary, single confirm</span>
+        <p>Instead of learning menu paths, the user states the goal. The system presents a clear summary and one confirmation. Behind the scenes, the agent navigates settings or coordinates with apps on the user’s behalf.</p>
+      </div>
+    </section>
+
+    <section class="panel split" aria-labelledby="t">
+      <div>
+        <h2 id="t">Target Users & Rationale</h2>
+        <span class="micro s1">Natural conversation, lower load</span>
+        <p>This design centers older adults and people with cognitive differences. It mirrors everyday conversation: say what you want, receive a straightforward response, move forward. By removing the need to memorize brand names and nested paths, the learning cost drops.</p>
+        <div class="aside-note">
+          <span class="micro s3">Outcome</span>
+          <p class="muted">Greater independence in common tasks without relying on a family “interpreter.”</p>
+        </div>
+      </div>
+      <figure class="figure">
+        <img src="assets/images/confirm-card.png" alt="Confirmation card showing plain language summary and one action.">
+        <figcaption>/assets/images/confirm-card.png</figcaption>
+      </figure>
+    </section>
+
+<section class="panel" aria-labelledby="bridge">
+  <h2 id="bridge">From Everyday Scenarios to a Future-Proof Assistant</h2>
+
+  <span class="micro s1">Why begin with daily, high-frequency tasks</span>
+  <p>We start from the most common situations that older adults and people with cognitive differences face in daily life. With emerging AI, the assistant lowers the learning cost of smart devices and turns complex, brand-specific flows into a short, natural exchange. Instead of memorizing which app to open and which nested menu to follow, a single sentence expresses the goal and the system guides the next step.</p>
+
+  <span class="micro s2">A reusable pattern that scales</span>
+  <p>This design is not tied to a single app. It follows a repeatable pattern—state intent → see a clear summary → confirm once—that can be applied to more services over time. As new integrations appear, the same interaction stays stable, so people do not have to relearn every brand’s rules.</p>
+
+  <span class="micro s2">Future-facing by design</span>
+  <p>Even our generation, fluent with today’s phones and websites, will one day meet unfamiliar tools. When that time comes, we will also need a way to adapt quickly. The same assistant can help us then: say what we want in everyday language, receive plain guidance, and learn how to use new technologies without starting from zero.</p>
+
+  <div class="aside-note">
+    <span class="micro s3">Long-term view</span>
+    <p class="muted">Start with what matters most today, keep the interaction simple, and carry the same pattern forward as technology changes.</p>
+  </div>
+</section>
+
+<section class="panel" aria-labelledby="pattern">
+  <h2 id="pattern">Interaction Pattern</h2>
+
+  <div class="pattern-cards">
+    <article class="card">
+      <span class="micro s1">Start with one sentence</span>
+      <p>The assistant begins from natural language—voice, typing, or handwriting. People say what they want instead of recalling brand names or menu paths.</p>
+      <figure class="figure">
+        <img src="assets/images/pattern-start.png" alt="Natural-language input: one large field with voice/typing/handwriting options (start step).">
+        <figcaption class="visually-hidden">one-input-ui</figcaption>
+      </figure>
+      <p> Users can personalize the assistant’s avatar. Grandparents might choose a photo of their granddaughter, a beloved dog, or any image they love—the choice is entirely theirs. This simple touch makes the experience feel warmer and more familiar, reducing older adults’ resistance to learning complex smartphone systems and features, while also expressing the human-centered care at the heart of my future-facing design.</p>
+      
+    </article>
+
+    <article class="card">
+      <span class="micro s1">See clear options</span>
+      <p>The system returns a small set of obvious choices, labeled in plain words. The goal stays in view; there is no need to switch apps or chase nested screens.</p>
+      <figure class="figure">
+        <img src="assets/images/pattern-options.png" alt="A small set of obvious options labeled in plain words (options step).">
+        <figcaption class="visually-hidden">options-grid</figcaption>
+      </figure>
+    </article>
+
+    <article class="card">
+      <span class="micro s1">Confirm once, done</span>
+      <p>A short summary appears. One confirmation applies the change or completes the task. The pattern is repeatable across settings, services, and future tools.</p>
+      <figure class="figure">
+        <img src="assets/images/pattern-confirm.png" alt="Plain summary and a single confirm action (confirmation step).">
+        <figcaption class="visually-hidden">confirm-card</figcaption>
+      </figure>
+    </article>
+  </div>
+</section>
+
+<section class="panel cta" aria-labelledby="cta">
+  <h2 id="cta" class="visually-hidden">Learn More</h2>
+  <p><a class="btn primary" href="use_cases.html">Explore Use Cases →</a></p>
+</section>
+
+  </main>
+  
+<footer role="contentinfo">
+  <div class="container">
+    <p>Concept: an AI agent for elders and people with cognitive differences. No functionality implemented.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+<script defer src="scripts/rain.js"></script>
+
+</body>
+</html>

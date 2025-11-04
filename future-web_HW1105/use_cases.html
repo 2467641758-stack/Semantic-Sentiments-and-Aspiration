@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Concrete use cases for a one-question AI assistant: wallpaper, storage, restaurants and coupons, hospital registration.">
+  <title>One-Question Assistant — Use Cases</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body class="usecases">
+  
+<a href="#main" class="visually-hidden">Skip to content</a>
+<header class="site-header">
+  <div class="container" style="display:flex; align-items:center; gap:1rem;">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <h1>One-Question Assistant</h1>
+    </div>
+    <nav class="primary" aria-label="Primary">
+      <a href="index.html" >Concept</a>
+      <a href="use_cases.html" aria-current="page">Use&nbsp;Cases</a>
+    </nav>
+  </div>
+</header>
+
+  <main id="main" class="container">
+
+    <nav aria-label="Breadcrumb" class="muted" style="margin:.2rem 0 1rem">
+      <a href="index.html">Concept</a> › <span aria-current="page">Use Cases</span>
+    </nav>
+
+    <section class="panel" aria-labelledby="uc">
+      <h2 id="uc">Use Cases</h2>
+      <p class="pullquote">Each begins with one sentence and ends with a single confirmation.</p>
+    </section>
+
+    <section class="panel zigzag">
+      <div class="zg">
+        <div>
+          <h3>Change wallpaper</h3>
+          <span class="micro s2">Start</span>
+          <p>The user says, “I want to change my wallpaper.”</p>
+          <span class="micro s2">Preview</span>
+          <p>The agent displays several options with clear labels—such as “calm blue leaves”—so the choice is obvious.</p>
+          <span class="micro s2">Confirm</span>
+          <p>One action applies the new wallpaper.</p>
+        </div>
+        <figure class="figure">
+          <img src="assets/images/wallpaper-gallery.png" alt="Wallpaper gallery with large previews and plain labels.">
+          <figcaption>/assets/images/wallpaper-gallery.png</figcaption>
+        </figure>
+      </div>
+
+      <div class="zg">
+        <figure class="figure">
+          <img src="assets/images/storage-card.png" alt="Storage/memory usage card with simple bars and next steps.">
+          <figcaption>/assets/images/storage-card.png</figcaption>
+        </figure>
+        <div>
+          <h3>Check storage / memory usage</h3>
+          <span class="micro s2">Start</span>
+          <p>The user writes, “How much storage or memory is used?”</p>
+          <span class="micro s2">Summary</span>
+          <p>A clear card appears with simple bars and suggestions if space is tight.</p>
+          <span class="micro s2">Confirm</span>
+          <p>One action accepts the cleanup or closes the card.</p>
+        </div>
+      </div>
+
+      <div class="zg">
+        <div>
+          <h3>Find nearby restaurants and book/queue</h3>
+          <span class="micro s2">Start</span>
+          <p>The user says, “Find nearby restaurants.”</p>
+          <span class="micro s2">Unified list</span>
+          <p>The agent returns results from connected services with quiet and step‑free badges.</p>
+          <span class="micro s2">Confirm</span>
+          <p>A single action books a table or joins a queue without switching apps.</p>
+        </div>
+        <figure class="figure">
+          <img src="assets/images/restaurants-list.png" alt="Restaurant cards with quiet/step-free badges and a single Book/Queue action.">
+          <figcaption>/assets/images/restaurants-list.png</figcaption>
+        </figure>
+      </div>
+
+      <div class="zg">
+        <figure class="figure">
+          <img src="assets/images/hospital-registration.png" alt="Hospital registration calendar with large slots and a confirmation step.">
+          <figcaption>/assets/images/hospital-registration.png</figcaption>
+        </figure>
+        <div>
+          <h3>Hospital registration</h3>
+          <span class="micro s2">Start</span>
+          <p>The user types, “Register at the hospital for next week.”</p>
+          <span class="micro s2">Slots</span>
+          <p>Available dates and required details are presented in plain language.</p>
+          <span class="micro s2">Confirm</span>
+          <p>One action submits and returns a ticket or queue number.</p>
+        </div>
+      </div>
+
+      <div class="zg">
+        <div>
+          <h3>Coupons and lower prices</h3>
+          <span class="micro s2">Start</span>
+          <p>The user says, “Show cheaper coupons online.”</p>
+          <span class="micro s2">Best option</span>
+          <p>The agent checks connected services and presents the best applicable coupon with a short explanation.</p>
+          <span class="micro s2">Confirm</span>
+          <p>One action applies it during booking or checkout.</p>
+        </div>
+        <figure class="figure">
+          <img src="assets/images/coupons-card.png" alt="Coupon card showing source and an Apply action.">
+          <figcaption>/assets/images/coupons-card.png</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="panel">
+      <p><a class="btn" href="index.html">← Back to Concept</a></p>
+    </section>
+  </main>
+  
+<footer role="contentinfo">
+  <div class="container">
+    <p>Concept: an AI agent for elders and people with cognitive differences. No functionality implemented.</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+<!-- 落叶脚本 -->
+<script defer src="scripts/leaves.js"></script>
+
+</body>
+</html>
